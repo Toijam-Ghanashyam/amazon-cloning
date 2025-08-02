@@ -1,11 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css" />
 </head>
+
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates est magni, libero, laborum nam ad possimus atque, quas pariatur dolores facilis porro fugit.</p>
+    <header>
+        <div class="navbar">
+            <div class="logo all-effect"></div>
+            <div class="navaddress ">
+                <p class="add-1">Deliver to</p>
+                <div class="map-pin">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-2">India</p>
+                </div>
+            </div>
+            <div class="search">
+                <div class="cat-drop">
+                    <select name="categories" id="select-cat">
+                        <option value="all" selected>All</option>
+                        <option value="furniture">Furniture</option>
+                        <option value="homedecor">Home Decor</option>
+                        <option value="stationery">Stationery</option>
+                        <option value="toys">Toys</option>
+                    </select>
+                </div>
+                <input type="text" placeholder="Search Amazon" class="searchbar">
+                <button type="submit" class="search-icon"><i class="fa-solid fa-magnifying-glass"
+                        id="mag-glass"></i></button>
+
+            </div>
+            <div class="language all-effect">
+                <div class="flag"><span class="fi fi-us"></span></div>
+                <div class="lang-select">
+                    <select name="language" id="lang">
+                        <option value="english" selected class="option">ENGLISH</option>
+                        <option value="hindi" class="option">HINDI</option>
+                        <option value="spanish" class="option">SPANISH</option>
+                    </select>
+                </div>
+            </div>
+            <div class="accounts all-effect">
+                <div class="sign-in">
+                    Hello, sign in
+                </div>
+                <div class="account-select">
+                    <p>Account & Lists</p>
+                    <select name="account" id="login-id">
+                        <option value="id"></option>
+                    </select>
+                </div>
+            </div>
+            <div class="returns all-effect">
+                <p class="return-1">Returns</p>
+                <p class="orders">& Orders</p>
+            </div>
+            <div class="shopping-cart all-effect">
+                <i id="my-cart" class="fa-solid fa-cart-shopping"></i>
+                <p class="cart">Cart</p>
+            </div>
+        </div>
+        <div class="post-navbar">
+            <div class="all">
+                <i class="fa-solid fa-bars" id="menu-dash"></i>
+                <span>All</span>
+            </div>
+            <div class="nav-services-div">
+                <a class="nav-services" href="">Today's Deals</a>
+            </div>
+            <div class="nav-services-div">
+                <a class="nav-services" href="">Registry</a>
+            </div>
+            <div class="nav-services-div">
+                <a class="nav-services" href="">Prime Video</a>
+            </div>
+            <div class="nav-services-div">
+                <a class="nav-services" href="">Gift cards</a>
+            </div>
+            <div class="nav-services-div">
+                <a class="nav-services" href="">Customer Service</a>
+            </div>
+            <div class="nav-services-div">
+                <a class="nav-services" href="">Sell</a>
+            </div>
+        </div>
+    </header>
+    <div class="hero-section">
+        <div class="text-for-amazon">
+            <span class="span-text-for-amazon">You are on amazon.com. You can also shop on Amazon India for millions of
+                products with fast local delivery.</span>
+            <a href="https://www.amazon.in/?&tag=googhydrabk1-21&ref=pd_sl_5szpgfto9i_e&adgrpid=155259813593&hvpone=&hvptwo=&hvadid=674893540034&hvpos=&hvnetw=g&hvrand=3042335664367259854&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9153527&hvtargid=kwd-64107830&hydadcr=14452_2316413&gad_source=1"
+                class="amazon-in-link">Click here to go to amazon.in</a>
+        </div>
+    </div>
+    <content class="boxes-of-items">
+        <div class="box1 boxes">
+            <div class="box-content">
+                <h2>Wardrobe Picks</h2>
+                <div class="box-image" style="background-image: url('box1_image.jpg');"></div>
+                <p class="seemore">See more</p>
+            </div>
+        </div>
+        <div class="box2 boxes">
+            <div class="box-content">
+                <h2>Hygene essentials</h2>
+                <div class="box-image" style="background-image: url('box2_image.jpg');"></div>
+                <p class="seemore">See more</p>
+            </div>
+        </div>
+        <div class="box3 boxes">
+            <div class="box-content">
+                <h2>Shop for Home Decor</h2>
+                <div class="box-image" style="background-image: url('box3_image.jpg');"></div>
+                <p class="seemore">See more</p>
+            </div>
+        </div>
+        <div class="box4 boxes">
+            <div class="box-content">
+                <h2>Smartphones Top Deals</h2>
+                <div class="box-image" style="background-image: url('box4_image.jpg');"></div>
+                <p class="seemore">See more</p>
+            </div>
+
+        </div>
+        <div class="box2 boxes">
+            <div class="box-content">
+                <h2>Beauty picks</h2>
+                <div class="box-image" style="background-image: url('box5_image.jpg');"></div>
+                <p class="seemore">See more</p>
+            </div>
+        </div>
+        <div class="box3 boxes">
+            <div class="box-content">
+                <h2>Pet-Care products</h2>
+                <div class="box-image" style="background-image: url('box6_image.jpg');"></div>
+                <p class="seemore">See more</p>
+            </div>
+        </div>
+        <div class="box4 boxes">
+            <div class="box-content">
+                <h2>Kids section</h2>
+                <div class="box-image" style="background-image: url('box7_image.jpg');"></div>
+                <p class="seemore">See more</p>
+            </div>
+        </div>
+        <div class="box1 boxes">
+            <div class="box-content">
+                <h2>Upgrade your closet</h2>
+                <div class="box-image" style="background-image: url('box8_image.jpg');"></div>
+                <p class="seemore">See more</p>
+            </div>
+        </div>
+        <hr style="color: rgba(229, 229, 229, 0.808); width: 90vw; text-align: center;">
+        <div class="sign-up">
+            <h2 class="text">See personalized recommendations</h2>
+            <div class="link-to-sign-in">
+                <a href="" class="sign-in-button">
+                    <span>Sign in</span>
+                </a>
+            </div>
+            <div class="new-user">
+                <span>New Customer?
+                </span>
+                <a href="">Start here</a>
+            </div>
+        </div>
+    </content>
+    <hr style="color: rgba(235, 233, 233, 0.777); margin-top: 15px; margin-bottom: 15px; text-align: center;">
+    <footer class="footer-of-amazon">
+        <div class="starting-point">
+            Back to top
+        </div>
+        <div class="links-to-services">
+            <div class="about-amazon navfooter">
+                <h2 class="about"> Get to Know Us</h2>
+                <a href="">Careers</a><br>
+                <a href="">Blog</a><br>
+                <a href="">About Amazon</a><br>
+                <a href="">Investor Relations</a><br>
+                <a href="">Amazon Devices</a><br>
+                <a href="">Amazon Science</a><br>
+            </div>
+            <div class="buisiness-with-amazon navfooter">
+                <h2 class="make-money">Make Money with Us</h2>
+                <a href="">Sell products on Amazon</a><br>
+                <a href="">Sell on Amazon Business</a><br>
+                <a href="">Sell apps on Amazon</a><br>
+                <a href="">Become an Affiliate</a><br>
+                <a href="">Advertise Your Products</a><br>
+                <a href="">Self-Publish with Us</a><br>
+                <a href="">Host an Amazon Hub</a><br>
+                <a href="">›See More </a><br>
+            </div>
+            <div class="amazon-payments navfooter">
+                <h2 class="payments">Amazon Payment Products</h2>
+                <a href="">Amazon Business Card</a><br>
+                <a href="">Shop with Points</a><br>
+                <a href="">Reload Your Balance</a><br>
+                <a href="">Amazon Currency Converter</a><br>
+            </div>
+            <div class="help-desk navfooter">
+               <h2 class="help"> Let Us Help You</h2>
+               <a href="">Amazon and COVID-19</a><br>
+               <a href="">Your Account</a><br>
+               <a href="">Your Orders</a><br>
+               <a href="">Shipping Rates & Policies</a><br>
+               <a href="">Returns & Replacements</a><br>
+               <a href="">Manage Your Content and Devices</a><br>
+               <a href="">Help</a><br>
+            </div>
+            
+        </div>
+        <div class="conclusion-links">
+            <div class="logo-conclusion">
+            </div>
+            <div class="lang-conclusion conc-buttons">
+                <i class="fa-solid fa-globe"></i>
+                <p>English</p>
+            </div>
+            <div class="currency conc-buttons">
+                <i style="margin: 5px;" class="fa-solid fa-dollar-sign"></i>
+                USD-U.S. Dollar
+            </div>
+            <div class="country-conclusion conc-buttons"><span style="margin: 5px;" class="fi fi-us"></span>
+            United States</div>
+        </div>
+    </footer>
+
 </body>
+
 </html>
