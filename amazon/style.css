@@ -314,8 +314,8 @@ h2 {
     border-radius: 20px;
 }
 .sign-in-button:hover{
-    color: rgb(230, 180, 0);
-    transition: 1s;
+    background-color: rgb(255, 162, 0);
+    
 }
 .link-to-sign-in{
     display: flex;
